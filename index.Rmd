@@ -7,3 +7,11 @@ site: bookdown::bookdown_site
 
 # Introduction
 
+## Maximize the return of the portfolio in stock market
+
+### Project outline
+As part of our final project, we chose to explore a portfolio of popular securities that is diversified across the different sectors of the S&P 500 and aim to achieve the following:
+1. Observe the distribution of our data and apply any necessary transformations in order to simplify our forecast
+2. Analyze the portfolio and understand where the most profit stems from. 
+3. Explore ways of forecasting individual stocks within the portfolio as well as the return of the entire Portfolio through different methods including factor models, Monte Carlo Simulations, R built in packages, etc
+4. Visualize and bound our forecasts within confidence intervals so that we understand what actions to take in the future in order to achieve better results
