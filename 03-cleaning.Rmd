@@ -1,1 +1,16 @@
 # Data transformation
+
+
+## Stock data transformation
+Stock Prices are notorious for not following a normal distribution. However, in order to run our analysis and ensure that our results are not biased we need to work with data that is at least fairly normal. In order to ensure this, we will be doing a couple of things:
+
+
+### Increase the sample size
+1. We will incease the sample size of our data as we know from the Central Limit Theorem that as we increase the size, our data will start to look approximately normal. Our focus is have sample greater than 1000 (anything above 30 should be normal).
+
+### Use log returns
+2. As we do know that stock price data tends to be log normally distriuted, we will be using log returns as we know that if we apply a natural logartihm on log-normal data we would be obtaining normally distributed data (All transformations are performed in R).
+
+
+### Filter data into csv files
+3. The Factor Data has been filtered to the stipulated time frame and loaded from a CSV file. No other changes have been made to it.

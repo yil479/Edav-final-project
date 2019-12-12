@@ -1,2 +1,14 @@
 # Data sources
 
+
+
+## Our Data is collected from 2 different sources:
+
+### Yahoo finance stock price
+1. All of the models used in our project are leveraging stock price time series which is scraped from Yahoo finance. We are leveraging the tidyquant package for its versatility as we can input a tiemframe and the desired stocks and we get the price data neatly in a tibble.
+
+### Kenneth French's Data library
+2. For our factor models we are using data from Kenneth French's Data library (https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html), where we specifically use factor data for the Market, Size, Value and Momentum factors in order to judge returns for our portfolio of stocks.
+
+### Additional data source
+3. In addition to the above data, we also create our own data leveraging forecasts achieved through Monte Carlo Simulations and Linear Regressions.
