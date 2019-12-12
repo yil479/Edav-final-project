@@ -1,6 +1,6 @@
 --- 
-title: "YOUR TITLE HERE"
-author: "YOUR NAMES HERE"
+title: "Edav_final_project2019"
+author: "Xue Xia, Tianyi Wang, Andrei Sipos, Yinhe Lu"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
 ---
